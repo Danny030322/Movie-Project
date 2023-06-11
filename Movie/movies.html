@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Movie Time</title>
+</head>
+<body>
+  <div class="header">
+    <button id="menu-icon" onclick="openDrawer()"><i class='bx bx-menu'></i></button>
+    <a href="#" class="Logo"><i class='bx bxs-camera-movie' ></i></a>
+    <nav class="menus">
+      <a href="index.html">Home</a>
+      <a href="movies.html" class="active-header">Movies</a> 
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a> 
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="acc-set" onclick="openProfile()"><i class='bx bx-user-circle'></i></button>
+   
+  </div>
+  <br><br>
+  <!-- drawer and profile code start -->
+  <div class="drawer">
+    <a href="#">Subscribe</a>
+    <a href="#">Payment</a>
+    <a href="#">Billing</a>
+    <a href="#">Watch</a>
+  </div>
+    <div class="profile-container">
+      <div class="blocks"><button id="toggleButton" onclick="LoginForm()">Login</button></div>
+      <div class="blocks"><a href="#">Basic Plan</a></div>
+      <div class="blocks"><a href="#">User Settings</a></div>
+      <div class="blocks"><a href="#">User Profile</a></div>
+      <div class="blocks"><a href="#">Personal Billing</a></div>
+      <div class="blocks"><a href="#">Personal Payout</a></div>
+      <div class="blocks"><a href="#">Pricing Plan & Upgrade</a></div>
+      <div class="blocks"><a href="#">Log Out</a></div>
+    </div>
+
+    <div class="login-box">
+      <span class="x-btn"><button onclick="LoginForm()"><i class='bx bx-x'></i></button></span>
+      <div class="login-wrapper">
+      <div class="colors">
+        <button onclick="toggleColor('#87590a')" class="color1"></button>
+        <button onclick="toggleColor('#332ab7')" class="color2"></button>
+        <button onclick="toggleColor('#081b29')" class="color3"></button>
+        <button onclick="toggleColor('#1f293a')" class="color4"></button>
+        <button onclick="toggleColor('#191717')" class="color5"></button>
+        <button onclick="toggleColor('#5d047a')" class="color6"></button>
+        <button onclick="toggleColor('#872c0c')" class="color7"></button>
+      </div>
+      <h2 class="heads">Login</h2>
+        <form action="#">
+
+          <div class="login-input">
+            <input type="text" placeholder="Username" required>            
+          </div>
+
+          <div class="login-input">
+            <input type="email" placeholder="Email" required>             
+          </div>
+
+          <div class="login-input">
+            <input type="password" placeholder="Password" required>
+          </div>
+          <div class="forgot-pass">
+            <a href="#" class="heads"> Forgot Your Password? </a>
+          </div>
+
+          <div class="signin">
+            <button>Login</button>
+          </div>
+
+          <div class="signup">
+            <button class="heads">Sign Up</button>
+          </div>
+
+        </form>
+     </div>
+    </div>
+
+    <!-- drawer and profile code end -->
+
+
+    <!-- container code start -->
+  <div class="container">
+    <!-- <div class="sec-container"> -->
+      <div class="section-container">
+        <div class="photo-container">
+          <div class="photo-container1 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container2 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container3 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container4 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container5 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container6 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container7 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container8 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container9 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container10 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container11 photo-containerall"></div>
+        </div>
+        <div class="photo-container">
+          <div class="photo-container12 photo-containerall"></div>
+        </div>
+      </div>
+    
+  </div>
+  <!-- container code end -->
+
+
+  <!-- footer code start -->
+  <footer id="footer">
+    <a href="index.html">Home</a>
+    <a href="movies.html" class="active-footer">Movies</a>
+    <a href="about.html">About</a>
+    
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+  </footer>
+
+  <!-- footer code end -->
+
+<script src="js.js"></script>
+</body>
+</html>

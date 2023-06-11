@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Movie Time</title>
+</head>
+<body>
+  <div class="header">
+    <button id="menu-icon" onclick="openDrawer()"><i class='bx bx-menu'></i></button>
+    <a href="#" class="Logo"><i class='bx bxs-camera-movie' ></i></a>
+    <nav class="menus">
+      <a href="index.html">Home</a> 
+      <a href="movies.html">Movies</a>
+      <a href="about.html">About</a> 
+      <a href="services.html" class="active-header">Services</a> 
+      <a href="contact.html">Contact</a>
+    </nav>
+    <button class="acc-set" onclick="openProfile()"><i class='bx bx-user-circle'></i></button>
+   
+  </div>
+  <br><br>
+  <!-- drawer and profile code start -->
+  <div class="drawer">
+    <a href="#">Subscribe</a>
+    <a href="#">Payment</a>
+    <a href="#">Billing</a>
+    <a href="#">Watch</a>
+  </div>
+    <div class="profile-container">
+      <div class="blocks"><button id="toggleButton" onclick="LoginForm()">Login</button></div>
+      <div class="blocks"><a href="#">Basic Plan</a></div>
+      <div class="blocks"><a href="#">User Settings</a></div>
+      <div class="blocks"><a href="#">User Profile</a></div>
+      <div class="blocks"><a href="#">Personal Billing</a></div>
+      <div class="blocks"><a href="#">Personal Payout</a></div>
+      <div class="blocks"><a href="#">Pricing Plan & Upgrade</a></div>
+      <div class="blocks"><a href="#">Log Out</a></div>
+    </div>
+
+    <div class="login-box">
+      <span class="x-btn"><button onclick="LoginForm()"><i class='bx bx-x'></i></button></span>
+      <div class="login-wrapper">
+      <div class="colors">
+        <button onclick="toggleColor('#87590a')" class="color1"></button>
+        <button onclick="toggleColor('#332ab7')" class="color2"></button>
+        <button onclick="toggleColor('#081b29')" class="color3"></button>
+        <button onclick="toggleColor('#1f293a')" class="color4"></button>
+        <button onclick="toggleColor('#191717')" class="color5"></button>
+        <button onclick="toggleColor('#5d047a')" class="color6"></button>
+        <button onclick="toggleColor('#872c0c')" class="color7"></button>
+      </div>
+      <h2 class="heads">Login</h2>
+        <form action="#">
+
+          <div class="login-input">
+            <input type="text" placeholder="Username" required>            
+          </div>
+
+          <div class="login-input">
+            <input type="email" placeholder="Email" required>             
+          </div>
+
+          <div class="login-input">
+            <input type="password" placeholder="Password" required>
+          </div>
+          <div class="forgot-pass">
+            <a href="#" class="heads"> Forgot Your Password? </a>
+          </div>
+
+          <div class="signin">
+            <button>Login</button>
+          </div>
+
+          <div class="signup">
+            <button class="heads">Sign Up</button>
+          </div>
+
+        </form>
+     </div>
+    </div>
+
+    <!-- drawer and profile code end -->
+
+      <div class="container">
+          <div class="service-container">
+            <div class="slide">
+              <div class="slide-con">
+                <div id="image-track" data-mouse-down-at="0" data-prev-percentage = "0">
+                  <img class="image" src="https://images.hungama.com/c/1/955/8d5/60672876/60672876_1280x800.jpg" draggable="false"/>
+                  <img class="image" src="https://images.hungama.com/c/1/73d/de3/49327870/49327870_1280x800.jpg" draggable="false"/>
+                  <img class="image" src="https://awsimages.detik.net.id/community/media/visual/2022/03/11/robert-pattinson-bintang-film-the-batman-1_43.jpeg?w=1200" draggable="false"/>
+                  <img class="image" src="https://highlandecho.com/wp-content/uploads/2014/12/NightmareBeforeChristmasWallpaper1024.jpg" draggable="false"/>
+                  <img class="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJyv9BcbQ5TAtYCoWRQ3UbtUeiZtpjtIXoTg&usqp=CAU" draggable="false"/>
+                  <img class="image" src="https://hips.hearstapps.com/hmg-prod/images/best-kids-movies-2023-mummies-1671118834.jpeg"
+                    alt="image" draggable="false"/>
+                  <img class="image" src="https://filmdaily.co/wp-content/uploads/2023/05/rtjtrj.jpg" draggable="false"/>
+                  <img class="image" src="https://m.ellaslist.com.au/system/articles/featured_images/000/004/842/original/Ruby_Gillman_%281%29.jpg?1685584744" alt="img3" draggable="false"/>
+                  <img class="image" src="https://www.techadvisor.com/wp-content/uploads/2022/06/harry_potter.jpg?quality=50&strip=all" alt="img4" draggable="false"/>
+                  <img class="image" src="https://i0.wp.com/hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lead-image-book-template-01-2-1670954481.jpg" alt="img5" draggable="false"/>
+                </div> 
+              <div class="slide-p">
+                <p class="slide-swipe">Swipe <span>Left</span> or <span>Right</span> to see the slide</p>
+              </div>
+              
+              </div>
+            </div>
+
+            <div class="service-content">
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-253671,resizemode-75,msid-47825455/magazines/panache/inside-out-review-a-movie-not-to-be-missed.jpg"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>Inside Out<br><span> Part II</span></h2>
+                      <div class="data">
+                        <h3> 56k <br><span> Watched</span>
+                        <h3> 38.3k <br><span> Download</span>
+                        <h3> 49k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://teaser-trailer.com/wp-content/uploads/The-Conjuring-3-The-Devil-Made-Me-Do-It-Movie.jpg"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>The Conjuring<br><span> Part III</span></h2>
+                      <div class="data">
+                        <h3> 47k <br><span> Watched</span>
+                        <h3> 22k <br><span> Download</span>
+                        <h3> 39k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://preview.redd.it/nier-automata-ver-1-1a-new-key-visual-v0-wu9oezsz2rp91.jpg?auto=webp&s=5539f12285d1b85adad380c89608e49900d615fb"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>Nier:Automata<br><span> Ver1.1a</span></h2>
+                      <div class="data">
+                        <h3> 89k <br><span> Watched</span>
+                        <h3> 56k <br><span> Download</span>
+                        <h3> 78.1k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://images.theconversation.com/files/500899/original/file-20221214-461-22jr1l.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>Avatar<br><span>2009</span></h2>
+                      <div class="data">
+                        <h3> 115k <br><span> Watched</span>
+                        <h3> 105k <br><span> Download</span>
+                        <h3> 99.4k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://www.mubis.es/media/articles/31403/305111/spider-man-no-way-home-vuelve-a-los-cines-con-escenas-ineditas-original.jpg"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>Spiderman<br><span> No Way Home</span></h2>
+                      <div class="data">
+                        <h3> 68k <br><span> Watched</span>
+                        <h3> 48.3k <br><span> Download</span>
+                        <h3> 82k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://horrornews.net/wp-content/uploads/2019/07/hellboy-2019-bluray-cover.jpg"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2> Hellboy<br><span> 2019</span></h2>
+                      <div class="data">
+                        <h3> 79k <br><span> Watched</span>
+                        <h3> 22k <br><span> Download</span>
+                        <h3> 33k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://assets-prd.ignimgs.com/2022/01/06/moonfall-ver2-button-1641507893009.jpg"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>Moonfall<br><span> 2022</span></h2>
+                      <div class="data">
+                        <h3> 72k <br><span> Watched</span>
+                        <h3> 58.3k <br><span> Download</span>
+                        <h3> 81k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="services-boxes">
+                  <div class="lines">
+                  </div>
+                  <div class="img-bx">
+                      <img src="https://img.mandarake.co.jp/webshopimg/03/93/211/0393209211/03932092110.jpg"/>
+                    </div>
+                  <div class="mov-con">
+                    <div class="detail">
+                      <h2>The Tunnel<br><span>To Summer</span></h2>
+                      <div class="data">
+                        <h3> 100k <br><span> Watched</span>
+                        <h3> 88.3k <br><span> Download</span>
+                        <h3> 99k <br><span> Subscribed</span>
+                      </div>
+                      <div class="action-btn">
+                        <button>Watch</button>
+                        <button>Download</button>
+                        <button>Subscribe</button>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+
+
+    <!-- footer code start -->
+  <footer id="footer">
+    <a href="index.html">Home</a>
+    <a href="movies.html">Movies</a>
+    <a href="about.html">About</a>
+    <a href="services.html" class="active-footer">Services</a>
+    <a href="contact.html">Contact</a>
+  </footer>
+
+  <!-- footer code end -->
+
+    <script src="js.js"></script>
+</body>
+</html>
